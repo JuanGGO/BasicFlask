@@ -21,7 +21,7 @@ def get_signal_from_flutter():
     else:
         return jsonify({
             'ERROR': 'FU asshole',
-            'Request': request
+            'Request': request.form
         })
 
 if __name__ == '__main__':
