@@ -9,7 +9,7 @@ def hello_world():
 
 
 @app.route('/from_flutter', methods=['GET', 'POST'])
-def get_signal_from_flutter(json):
+def get_signal_from_flutter():
     param = request.form.get('title')
     print(param)
 
