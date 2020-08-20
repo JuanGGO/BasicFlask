@@ -8,7 +8,7 @@ def hello_world():
     return '<h1>Hello World! Heroku<h1>'
 
 
-@app.route('/from_flutter', methods=['POST', 'GET'])
+@app.route('/from_flutter', methods=['GET', 'POST'])
 def get_signal_from_flutter(json):
     param = request.form.get('title')
     print(param)
