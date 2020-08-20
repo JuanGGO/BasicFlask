@@ -20,7 +20,8 @@ def get_signal_from_flutter():
 
     else:
         return jsonify({
-            'ERROR': 'FU asshole'
+            'ERROR': 'FU asshole',
+            'Request': request
         })
 
 if __name__ == '__main__':
